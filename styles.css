@@ -1,0 +1,51 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.oval {
+    width: 110px;
+    height: 110px;
+    background-color: #f84f00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.inner-oval {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.bar {
+    width: 170px;
+    height: 40px;
+    background-color: #f84f00;
+    border-radius: 7px;
+    position: absolute;
+
+}
+
+.bar:nth-child(2) {
+    transform: rotate(60deg);
+    position: absolute;
+
+}
+
+.bar:nth-child(3) {
+    transform: rotate(120deg);
+    position: absolute;
+
+}
